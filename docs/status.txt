@@ -1,0 +1,5 @@
+rebase in progress; onto f4975e5
+You are currently rebasing branch 'master' on 'f4975e5'.
+  (all conflicts fixed: run "git rebase --continue")
+
+nothing to commit, working tree clean

@@ -1,0 +1,47 @@
+david:assignment2$ git push origin master
+Username for 'https://github.com': dturner1189
+Password for 'https://dturner1189@github.com':
+Everything up-to-date
+
+
+
+b)
+david:docs$ git rev-list --all --count
+9
+
+c)
+david:assignment2$ git log -1 --pretty="format:%ci" ./.gitignore
+2019-09-25 18:13:30 -0400
+
+d)
+Branches let you go back and forth between different 'states' of the project.
+Branches let you test out new features in a less consequence heavy environment.
+
+e)
+git status will tell you which files are known to exist.
+git log will show you a list of all the new commits.
+
+f)
+david:assignment2$ git log --follow -- Vehicle.h
+
+g)
+david:assignment2$ git log --all --grep='file'
+
+h)
+Inheritance is the ability to make, build, or derive a class from an existing class. These share attributes and functions.
+
+Polymorphism is the idea that different objects can be derived from a similar source. Triangle and square are both different yet they are both shapes.
+
+Encapsulation is the idea of separating data and modifiers so that the object is only changed from the predefined methods defined in that object.
+
+
+i)
+Dictator style has one master repo which will only be modified by the dictator. The centralized method has everyone sharing the same repository and making changes to it themselves.
+
+j)
+With so many people using the same repo it could get very clustered fast. In some cases it may be easier to have all changes go through one person so that there will be someone who understands everything that is happening with the project in a larger sense.
+
+
+LAST answer)
+
+This is an example of both polymorphism and Encapsulation, The objects are derived from the same class, yet they are functionally different. Instead of modifying values manually or from outside of the class methods, values are changed internally using 'setters' and 'modifiers'.
